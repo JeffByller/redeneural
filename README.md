@@ -1,4 +1,4 @@
-# 📷 Laboratório de Visão Computacional: Roadmap de Estudos
+# Laboratório de Visão Computacional: Roadmap de Estudos
 
 Bem-vindo ao seu laboratório pessoal de Visão Computacional! O foco deste laboratório é **aprender**, desconstruir o funcionamento das coisas e aplicar conceitos de visão computacional na prática, usando a câmera IP local (`10.64.0.61`).
 
@@ -6,7 +6,7 @@ Usaremos **Jupyter Notebooks** rodando no Docker para que você possa executar b
 
 ---
 
-## 🗺️ Fases do Laboratório
+## Fases do Laboratório
 
 ### **Fase 1: Fundamentos e Captura de Vídeo**
 *O objetivo inicial é estabelecer comunicação com a câmera e entender como as imagens são representadas no computador (Matrizes).*
@@ -45,16 +45,16 @@ Usaremos **Jupyter Notebooks** rodando no Docker para que você possa executar b
 
 1. **Alarme de Invasão de Perímetro:** Você desenha uma "zona virtual" no frame. Se a câmera detectar movimento dentro dela, salva uma foto na pasta e emite um alerta no log.
 2. **Contador de Objetos:** Passar objetos numa direção específica da bancada e contar (ex: da esquerda para a direita aumenta +1).
-3. **Controle por Gesto:** Ligar uma variável no código fazendo "sinal de positivo 👍" para a câmera.
+3. **Controle por Gesto:** Ligar uma variável no código fazendo "sinal de positivo " para a câmera.
 
 ---
 
-## 🛠️ Como usar este laboratório?
+## Como usar este laboratório?
 
 Todo o ambiente está conteinerizado no Docker. Para começar a brincar:
 
 1. Suba os containers: `docker-compose up -d --build`
 2. Acesse o ambiente Jupyter no seu navegador através do endereço:
-   👉 **http://localhost:8888**
-   👉 **Token de acesso:** `cvlab`
+   **http://localhost:8888**
+   **Token de acesso:** `cvlab`
 3. Crie Notebooks (`.ipynb`) dentro do Jupyter para cada fase do seu roadmap e experimente o código.
