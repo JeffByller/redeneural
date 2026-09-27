@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cv-lab:
+    build: .
+    container_name: cv-lab-env
+    ports:
+      - "8888:8888" # Jupyter Lab
+      - "5000:5000" # Servidor de Vídeo em Tempo Real
+    volumes:
+      - .:/app
+    environment:
+      # URL base da sua câmera. Pode ser necessário ajustar o path (ex: /11, /h264, /Streaming/Channels/101) dependendo da marca da câmera.
+      - CAMERA_RTSP_URL=rtsp://10.64.0.61:554/
+    restart: unless-stopped

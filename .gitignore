@@ -1,0 +1,12 @@
+# Arquivos gigantes e de video
+*.mp4
+*.avi
+*.pcap
+
+# Arquivos temporários do Python e Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Variaveis de ambiente (por segurança)
+.env
