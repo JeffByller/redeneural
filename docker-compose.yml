@@ -11,5 +11,5 @@ services:
       - .:/app
     environment:
       # URL base da sua câmera. Pode ser necessário ajustar o path (ex: /11, /h264, /Streaming/Channels/101) dependendo da marca da câmera.
-      - CAMERA_RTSP_URL=rtsp://10.64.0.61:554/
+      - CAMERA_RTSP_URL=rtsp://10.64.0.60:554/
     restart: unless-stopped
