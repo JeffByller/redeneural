@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # --- 2. SETUP DA CÂMERA E DA IA ---
 # Modifique aqui a URL da sua câmera (com senha)
-RTSP_URL = 'rtsp://admin:@Jeff2712@10.64.0.61:554/'
+RTSP_URL = 'rtsp://admin:@Jeff2712@10.64.0.60:554/'
 
 # Inicializando os módulos de desenho, Mãos e Corpo do MediaPipe
 mp_desenho = mp.solutions.drawing_utils

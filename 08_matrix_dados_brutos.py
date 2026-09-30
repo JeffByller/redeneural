@@ -4,7 +4,7 @@ import time
 import os
 
 # Coloque a sua URL com senha aqui!
-RTSP_URL = 'rtsp://admin:@Jeff2712@10.64.0.61:554/'
+RTSP_URL = 'rtsp://admin:@Jeff2712@10.64.0.60:554/'
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5)
