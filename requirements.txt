@@ -10,3 +10,4 @@ imutils==0.5.4
 # Deep Learning / IA / Tracking Avançado
 ultralytics==8.1.24 # Para YOLOv8 (Detecção de Objetos)
 mediapipe==0.10.11 # Para rastreamento de pose, mãos e rosto
+flask==3.0.2
